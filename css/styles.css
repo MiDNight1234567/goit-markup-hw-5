@@ -617,7 +617,7 @@ p {
   padding: 72px 24px 24px 24px;
 }
 
-.is-hidden {
+/* .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -626,7 +626,7 @@ p {
 .is-open {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 .modal-button {
   position: absolute;
