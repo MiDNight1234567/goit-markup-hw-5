@@ -766,7 +766,7 @@ p {
   fill: transparent;
 }
 
-input[type="checkbox"]:checked + label span {
+input[type="checkbox"]:checked + label .span-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
