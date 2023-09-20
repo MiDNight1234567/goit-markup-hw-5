@@ -756,6 +756,12 @@ p {
   color: #8e8f99;
 }
 
+.checkbox .span-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .span-checkbox {
   width: 16px;
   height: 16px;
@@ -768,12 +774,6 @@ p {
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
-
-.checkbox .span-checkbox {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
 }
 
 .checkbox-privacy {
