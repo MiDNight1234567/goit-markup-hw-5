@@ -770,7 +770,7 @@ p {
   fill: transparent;
 }
 
-.checkbox .span-checkbox {
+.checkbox:checked + .span-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
