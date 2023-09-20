@@ -646,7 +646,7 @@ p {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover {
+.modal:hover .modal-button {
   background-color: #404bbf;
   border: none;
 }
@@ -770,7 +770,7 @@ p {
   fill: transparent;
 }
 
-.checkbox .span-checkbox {
+input[type="checkbox"]:checked + label .span-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
