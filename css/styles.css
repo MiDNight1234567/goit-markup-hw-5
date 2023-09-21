@@ -766,7 +766,7 @@ p {
   fill: transparent;
 }
 
-.input:checked .span-checkbox {
+.checkbox-input:checked + .lable-checkbox .span-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
