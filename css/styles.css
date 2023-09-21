@@ -675,7 +675,7 @@ p {
   margin-bottom: 8px;
 }
 
-.lable {
+.modal-lable {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -753,6 +753,7 @@ p {
 }
 
 .span-checkbox {
+  margin-right: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -767,9 +768,15 @@ p {
 }
 
 .checkbox-input:checked + .lable-checkbox .span-checkbox {
+  opacity: 1;
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.checkbox-privacy {
+  text-decoration: underline;
+  color: #404bbf;
 }
 
 .checkbox-privacy {
